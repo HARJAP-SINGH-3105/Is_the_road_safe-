@@ -1,1 +1,5 @@
-# Is_the_road_safe-
+#### Is_the_road_safe-
+
+### "flight_take_off" jupyter notebook worked upon data about flights leaving from JKF ariport between Nov 2019-Dec-2020,where Taxi-Out prediction has been an important concept as it helps in calculating Runway time and directly impact the cost of the flight.This data has been imported from "Kaggle"
+
+### I use basically three models -"Linear , Lasso and Ridge regression".In the above problem statement,my target is to make the "Taxi-prediction" ,a certain numerical value ,so linear regression which consider a linear relation --line,curve,hyperplane is the naive choice.Then after, analysing the data ,it has been found there are in total 23 feature vectors, which seems to be large in this case and can create arbitary errors in prediction.So I decide to use the Lasso which can make coefficents "zero" of certain features which seems to be less importance.Similarly , Ridge can also lower down the contributions of some unnecessary features by assigning them less weightage.
